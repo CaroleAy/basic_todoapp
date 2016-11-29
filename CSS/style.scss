@@ -1,0 +1,108 @@
+/*
+
+To do app
+
+Web professional Class / Rapperswil November 2016
+
+
+*/
+
+// This comment works only in sass!
+$color-white: #DAD6CA;
+$color-sigh: #1BB0CE;
+$color-creative: #26EFF4;
+$color-plastic-stem: #6A5E72;
+$color-dirty-turqoise: #6A5E72;
+$color-almost-black: #080202;
+
+@border-padding($border-padding){
+padding: 10px;
+margin-bottom: 20px;
+}
+
+body {
+	background: $color-sigh;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #080202;
+}
+
+.page {
+	background: $color-white;
+	padding: 50px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+/* Forms & Form fields */
+
+.form {
+	&__add {
+		padding: 10px;
+		background: $color-sigh;
+		margin-bottom: 20px;
+	}
+
+	&__remove {
+		/*
+		background: $color-sigh;
+		padding: 10px;
+		margin-bottom: 20px;
+		*/
+		@extend.form__add;
+		text-align: right;
+	}
+
+	&__element {
+		font-size: 18px;
+		padding: 10px;
+		color: #24A1AE;
+		background: #fefefe;
+		border: solid 1px #725830;
+		}
+
+		&-time {
+			width: 100%;
+		}
+}
+
+.list {
+
+		&__item {
+			background: #f3f3f3;
+			padding: 15px;
+			color: #725830;
+			margin-bottom: 10px;
+			list-style: none;
+}
+
+		&__item-subentry {
+				width: 49%;
+				display: inline-block;
+				}
+
+		&__item-subtime {
+				text-align: right;
+
+		}
+}
+
+
+/* Person Grid*/
+
+.list-persons {
+
+ &__person {
+	margin-bottom: 20px;
+	padding-left: 20px;
+	text-align: center;
+	background: #26EFF4;
+	overflow: hidden;
+	}
+	}

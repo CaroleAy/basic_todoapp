@@ -1,0 +1,73 @@
+/*
+
+To do app
+
+Web professional Class / Rapperswil November 2016
+
+
+*/
+@border-padding ($border-padding) {
+  padding: 10px;
+  margin-bottom: 20px; }
+
+body {
+  background: #1BB0CE;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #080202; }
+
+.page {
+  background: #DAD6CA;
+  padding: 50px; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 20px; }
+
+/* Forms & Form fields */
+.form__add, .form__remove {
+  padding: 10px;
+  background: #1BB0CE;
+  margin-bottom: 20px; }
+
+.form__remove {
+  /*
+		background: $color-sigh;
+		padding: 10px;
+		margin-bottom: 20px;
+		*/
+  text-align: right; }
+
+.form__element {
+  font-size: 18px;
+  padding: 10px;
+  color: #24A1AE;
+  background: #fefefe;
+  border: solid 1px #725830; }
+
+.form-time {
+  width: 100%; }
+
+.list__item {
+  background: #f3f3f3;
+  padding: 15px;
+  color: #725830;
+  margin-bottom: 10px;
+  list-style: none; }
+
+.list__item-subentry {
+  width: 49%;
+  display: inline-block; }
+
+.list__item-subtime {
+  text-align: right; }
+
+/* Person Grid*/
+.list-persons__person {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+  background: #26EFF4;
+  overflow: hidden; }
