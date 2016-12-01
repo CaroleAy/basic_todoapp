@@ -1,0 +1,51 @@
+<DOCTYPE html>
+  <html lang="en">
+  <head>
+     <link rel="stylesheet" type="text/css" href="CSS/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    <title>To do App</title>
+  </head>
+  <body>
+  <div class="page">
+  	<h1>To do app</h1>
+  	<h2> Add new item</h2>
+  		<div class="row">
+  			<input class="col-xs-8 form__element" type="date"></input>
+  			<button class="col-xs-4 form__add">Add new Item</button>
+  		</div>
+
+    	<div class="row">
+  		<div class="col-xs-8  col-md-3">
+  		<button class="form__element form__element-button form__element-button-remove">Remove Liste</button>
+  		</div>
+    </div>
+
+  		<div class="list">
+        <ul class="list__items">
+  				<li class="list__item">
+  					<div class="list__item-sub list__item-subentry">List Item 1</div>
+  					<div class="list__item-sub list__item-subtime">Erledigen bis: 21:00</div>
+  				</li>
+  				<li class="list__item">List Item 2</li>
+  				<li class="list__item">List Item 3</li>
+  				<li class="list__item">List Item 4</li>
+  				<li class="list__item">List Item 5</li>
+  				<li class="list__item">List Item 6</li>
+  			</ul>
+  		</div>
+
+  <!--2nd evening-->
+  <div class="list-person row">
+	 	 <div class="col-xs-4 list-persons__person">1</div>
+ 	 <div class="col-xs-4 list-persons__person">2</div>
+ 	 <div class="col-xs-4 list-persons__person">3</div>
+ 	 <div class="col-xs-4 list-persons__person">4</div>
+ 	 <div class="col-xs-4 list-persons__person">5</div>
+  </div>
+  <script id="__bs_script__"><![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.17.5'><\/script>".replace("HOST", location.hostname));
+  ]]></script>
+</body>
+</html>
