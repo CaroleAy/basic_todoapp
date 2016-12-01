@@ -71,3 +71,15 @@ h2 {
   text-align: center;
   background: #26EFF4;
   overflow: hidden; }
+
+/*
+	.base-title {
+		font-size: 14px;
+		color:blue;
+	}
+
+	.title
+	@extend .base-title {
+		color:red;
+	}
+	*/
